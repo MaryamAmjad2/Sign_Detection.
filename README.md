@@ -1,20 +1,28 @@
-Sign Detection Project - ASL Gestures
-This project detects three American Sign Language (ASL) gestures: "Hello," "Thank You," and "I Love You." Using MediaPipe Holistic, TensorFlow, OpenCV, NumPy, and Pandas, it captures and classifies hand and facial landmarks in real-time.
+# Sign Detection Project - ASL Gestures  
 
-Features
-Real-time sign detection using MediaPipe Holistic.
+This project detects three American Sign Language (ASL) gestures: **"Hello," "Thank You,"** and **"I Love You."** It utilizes **MediaPipe Holistic** to capture hand, face, and pose landmarks, while **TensorFlow** is used for deep learning-based gesture classification. **OpenCV** handles real-time video processing, and **NumPy & Pandas** assist with data preprocessing and storage.
 
-Deep learning-based classification with TensorFlow.
+## Features  
+- **Real-time ASL sign detection** using MediaPipe Holistic.  
+- **Deep learning-based classification** with TensorFlow.  
+- **OpenCV integration** for processing live video streams.  
+- **NumPy & Pandas** for efficient data handling and preprocessing.  
 
-OpenCV for video stream processing.
+## Tech Stack  
+- **MediaPipe Holistic** – Extracts hand, face, and pose keypoints.  
+- **TensorFlow** – Trains and classifies ASL gestures.  
+- **OpenCV** – Handles video input for real-time detection.  
+- **NumPy & Pandas** – Assist in data preprocessing and storage.  
 
-NumPy & Pandas for efficient data handling.
+## Usage  
+1. Capture ASL gestures using a webcam.  
+2. Extract keypoints using MediaPipe Holistic.  
+3. Train a deep learning model with TensorFlow.  
+4. Detect and classify signs in real-time.  
 
-Tech Stack
-MediaPipe Holistic - Extracts hand, face, and pose keypoints.
+## Applications  
+- Assistive technology for speech-impaired individuals.  
+- ASL learning and educational tools.  
+- Gesture-based human-computer interaction.  
 
-TensorFlow - Trains a deep learning model for sign recognition.
-
-OpenCV - Handles real-time video input.
-
-NumPy & Pandas - Assist in data preprocessing.
+Contributions are welcome! 🚀  
